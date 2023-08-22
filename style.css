@@ -129,4 +129,42 @@ body {
     font-size: 18px;
 }
 
+.container-four {
+    padding: 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert-box {
+    background-color: #3882F6;
+    padding: 50px 180px;
+    color: #e5e7eb;
+    display: flex;
+    gap: 150px;
+    
+}
+
+#call {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.right-box > button {
+    background-color: transparent;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 10px 30px;
+    border:solid;
+    border-color: #e5e7eb;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
 
