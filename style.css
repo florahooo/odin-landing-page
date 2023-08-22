@@ -3,6 +3,7 @@ body {
     margin:0;
 }
 
+
 .nav-bar {
     display: flex;
     background-color: #1f2937;
@@ -38,9 +39,13 @@ body {
     margin-bottom: 18px;
 }
 
+#secondary-text {
+    font-size: 18px;
+}
+
 .hero-image {
-    width: 50vh;
-    height:27vh;
+    width: 60vh;
+    height:30vh;
     background-color: darkgray;
     display: flex;
     justify-content: center;
@@ -93,7 +98,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
+.gallery-text {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 18px;
 }
 
 
